@@ -80,10 +80,10 @@
 		});
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
+		$window.on('DOMContentLoaded', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 500);
+			}, 100);
 		});
 
 	// Tweaks/fixes.
